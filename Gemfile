@@ -5,6 +5,7 @@ gem "rails", "~> 5.2"
 gem "mysql2"
 # uncomment to use PostgreSQL
 # gem "pg"
+gem "faker"
 
 # rails
 gem 'scenic'
@@ -52,7 +53,6 @@ group :test, :development do
   gem "rubocop", require: false
   gem "rubocop-rails", require: false
   gem "rubocop-rspec", require: false
-  gem "faker"
   gem "byebug"
   gem "rb-readline"
 end

@@ -31,7 +31,7 @@ test:
 production:
   <<: *default
   reconnect: false
+  url: <%= ENV['DATABASE_URL'] %>
   database: lobsters_production
   username: b9c564c023cf55
   password: 64ce86ac
-  socket: /tmp/mysql.sock

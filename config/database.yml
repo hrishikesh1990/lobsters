@@ -32,6 +32,7 @@ production:
   adapter: mysql2
   encoding: utf8mb4
   url: <%= ENV['DATABASE_URL'] %>
-  database: lobsters_production
-  username: b9c564c023cf55
-  password: 64ce86ac
+  database: jhpksigtmg3dh2p4
+  port: 3306
+  username: fg8k8s96h0g5xgsh
+  password: j2f3e7oa0zz37ms3

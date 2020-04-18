@@ -36,8 +36,6 @@ GEM
       activemodel (= 5.2.4.1)
       activesupport (= 5.2.4.1)
       arel (>= 9.0)
-    activerecord-mysql2-adapter (0.0.3)
-      mysql2
     activerecord-typedstore (1.2.2)
       activerecord (>= 4.2)
     activestorage (5.2.4.1)
@@ -256,7 +254,6 @@ PLATFORMS
 
 DEPENDENCIES
   actionpack-page_caching
-  activerecord-mysql2-adapter
   activerecord-typedstore
   bcrypt (~> 3.1.2)
   bullet

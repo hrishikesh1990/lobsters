@@ -3,7 +3,6 @@ source "https://rubygems.org"
 gem "rails", "~> 5.2"
 
 gem "mysql2"
-gem 'activerecord-mysql2-adapter'
 # uncomment to use PostgreSQL
 # gem "pg"
 

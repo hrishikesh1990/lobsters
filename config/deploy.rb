@@ -1,5 +1,5 @@
 # Change these
-server '159.203.170.98', port: 22, roles: [:web, :app, :db], primary: true
+server '159.203.172.25', port: 22, roles: [:web, :app, :db], primary: true
 
 set :repo_url,        'git@https://github.com/hrishikesh1990/lobsters.git'
 set :application,     'remote-clan'

@@ -1,7 +1,7 @@
 # Change these
 server '159.203.172.25', port: 22, roles: [:web, :app, :db], primary: true
 
-set :repo_url,        'git@https://github.com/hrishikesh1990/lobsters.git'
+set :repo_url,        'git@github.com/hrishikesh1990/lobsters.git'
 set :application,     'remote-clan'
 set :user,            'root'
 set :puma_threads,    [4, 16]
